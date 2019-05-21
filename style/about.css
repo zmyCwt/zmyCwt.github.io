@@ -1,0 +1,23 @@
+body{font: 14px/1.5 "microsoft yahei",simsun;background-color: #8cabbd;}
+*{margin: 0;padding: 0;}
+h2{font-size: 14px;color: #8cabbd;text-align: center;padding-top: 2px;}
+header::before{background: #000 linear-gradient(to left,#59f874, #92cfeb, #55f568, #e99191, #75e954, #b568dd);content: ""; height: 5px;position: absolute;top: 0; width: 100%;}
+.logo{float: left;margin-left: 90px;line-height: 50px;color: white;font-size: 28px;}
+.logo a{color: white;}
+#navtop{width: 100%;height: 50px;background: #92BFDC;padding: 5px 0;}
+#navtop{float: left;height: 50px;line-height: 50px;text-align: center;}
+#navtop ul{width: 1000px;margin: auto;}
+#navtop ul li{position: relative;display: inline;float: left;margin-left: 120px;}
+li a{display: inline;padding: 0 21px;float: left;}
+#topnav_curret {color: green;}
+li a{display: inline;padding: 0 21px;float: left;color: white;}
+li a:hover{color: green;}
+/*nav end*/
+/*search begin*/
+.search {float:right;margin:11px 61px 0 0;border:1px solid #fff;border-radius:20px;overflow:hidden;position:relative;display:inline-block;vertical-align:top;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s;}
+.search .text {width:50px;padding:2px 3px 1px 3px;float:left;font-size:14px;font-family:"t","microsoft yahei";height:28px;line-height:30px;text-indent:10px;border:0;border-radius:20px;outline:0;background:transparent;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s;margin-bottom: 2px;}
+.search .btn {width:30px;height:30px;float:left;margin:0 8px 0 0;text-indent:-999px;border:0;cursor:pointer;background:url(../images/search.png) no-repeat 0 -360px;outline: 0;}
+.search:hover {border:1px solid #2F889A;background:#fff;}
+.search:hover .text {width:80px;}
+/*search end*/
+#banner{height: 221px;/*margin-top:10px;*/overflow: hidden;clear: both;background: url(../images/article_banner001.jpg) no-repeat scroll;}
